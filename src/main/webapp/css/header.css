@@ -1,0 +1,334 @@
+.LIModuleCN{
+    display:none;
+    background-color: rgba(128,128,128,0.5);
+    position:fixed;
+    margin-top:0px;
+    width: 100%;
+}
+
+.CAModuleCN{
+    display:none;
+    background-color: rgba(128,128,128,0.5);
+    position:fixed;
+    margin-top:0px;
+    width:100%;
+}
+
+
+.header-flex{
+    display:flex;
+    background-color: rgba(255,0,0,0);
+    justify-content: space-between;
+    height: 50px;
+    box-shadow: 0px 3px 5px lightgrey;
+}
+.header-flex-left{
+    display:flex;
+    background-color: rgba(255,0,0,0);
+    justify-content: left;
+    height: 50px;
+    margin-left:0.5%;
+    width:500px;
+    align-items: start;
+}
+.header-flex-right{
+    display:flex;
+    background-color: rgba(255,0,0,0);
+    justify-content: space-between;
+    height: 50px;
+    margin-right:0.5%;
+}
+
+.headerFB1{
+    margin:1%;
+    margin-top:auto;
+    margin-bottom:auto;
+    background-color: rgba(0,255,0,0);
+    font-size:12px;
+    width:50px;
+    height:50px;
+}
+
+.headerFB1 > img{
+	margin-top:3px;
+	margin-bottom:auto;
+	padding:auto;
+	height:40px;
+}
+
+.headerFB2{
+    margin:1%;
+    margin-right:0%;
+    background-color: rgba(0,255,0,0);
+    font-size: 12px;
+    width:50px;
+}
+
+.headerFB2 > img {
+    margin: auto;
+    width:40px;
+}
+
+.headerFB3{
+    margin:1%;
+    margin-left:0%;
+    background-color: rgba(0,255,0,0);
+    font-size: 12px;
+    width:300px;
+}
+
+.headerFB3 > input {
+    height:36px;
+    border:0px;
+    font-size: 20px;
+
+    display: inline-block;
+    width: 100%;
+    font-size: 1.5rem;
+  
+    padding-left: 0rem;
+    padding-right: 1rem;
+    padding-bottom: 0.2rem;
+  
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.headerFB4A{
+    margin:1%;
+    background-color: rgba(0,255,0,0);
+    font-size: 12px;
+    width:155px;
+}
+
+.headerFB4A > button{
+	height:45px;
+	width: 150px;
+	margin-left:3px;
+	margin-right:3px;
+	padding-top:0px;
+	background-color:rgba(235,235,235,1);
+	border-color:white;
+	border-radius:5px;
+}
+
+.headerFB4A > button:hover{
+	background-color:rgba(215,215,215,1);
+}
+
+
+.headerFB5{
+    margin:1%;
+    background-color: rgba(0,255,0,0);
+    font-size: 12px;
+    width:50px;
+}
+
+.headerFB5 > img {
+    margin: auto;
+    width:50px;
+}
+
+.headerFB6{
+    margin:1%;
+    background-color: rgba(0,255,0,0);
+    font-size: 12px;
+    width:50px;
+}
+
+.headerFB6 > img {
+    margin: auto;
+    width:50px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+.closeWindowBar{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:70px;
+    width: 490px;
+    height: 30px;
+    justify-self: center;
+    background-color: rgba(255,255,255,1);
+    margin-left:auto;
+    margin-right:auto;
+    text-align: right;
+}
+
+.closeWindowBar > img{
+    height: 20px;
+    width: 20px;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.LIModule{
+    width:450px;
+    padding:20px;
+    padding-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    background-color: rgba(255,255,255,100);
+    text-align: center;
+    margin-bottom:100px; 
+    
+}
+
+.LIHeader{
+    font-size:30px;
+    padding-bottom: 30px;
+}
+
+.LIInputs{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(0,255,0,0);
+}
+
+.LIInputs > table{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.LICol1{
+    text-align: right;
+    font-size:20px; 
+    width: 30%;
+}
+
+.LICol1Last{
+    text-align: left;
+    font-size: 12px;
+}
+
+.LICol2 > input {
+    height:24px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.LICol2FB{
+    display:flex;
+    justify-content: space-between;
+}
+
+.LICol2Left{
+    text-align: left;
+    font-size: 12px;
+}
+
+.LICol2Right{
+    text-align: right;
+    font-size: 12px;
+}
+
+.CAModule{
+    width:450px;
+    padding:20px;
+    padding-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,100);
+    text-align: center;
+    margin-bottom:100px; 
+}
+
+.CAHeader{
+    font-size:30px;
+    padding-bottom:30px;
+}
+
+.CAInputs{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(0,255,0,0);
+}
+
+.CAInputs > table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.CACol1{
+    text-align: right;
+    font-size:20px;
+    width: 43%;
+}
+
+.CACol1Last{
+    text-align: left;
+    font-size: 12px;
+}
+
+#CPasswordDiff{
+	font-size:12px;
+	color:rgba(255,0,0,100);
+	display:none;
+}
+
+.CACol2 > input {
+    height:24px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.CACol2FB{
+    display:flex;
+    justify-content: space-between;
+}
+
+.CACol2Left{
+    text-align: left;
+    font-size: 12px;
+}
+
+.CACol2Right{
+    text-align: right;
+    font-size: 12px;
+}
+
+.CACol3 > img {
+    height: 30px;
+    width:  30px;
+    margin:0;
+    padding:0;
+}
+
+.hORh{
+    display:flex;
+    width:100%;
+}
+
+.hORh1{
+    margin-top:auto;
+    width:50%;
+    margin-bottom:auto;
+}
+
+.hORh2{
+    margin-left:3px;
+    margin-right:3px;
+}
+
+.GGAUTHFB{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding-top:0px;
+    padding-bottom:20px;
+}
+
+.TandC{
+    color:rgba(128,128,128,100);
+    font-size: 10px;
+}
+
