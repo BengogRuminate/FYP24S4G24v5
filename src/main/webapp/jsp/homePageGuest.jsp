@@ -138,7 +138,7 @@
                         <td class="LICol2"><input type='password' id='LIpassword' name='password'></input></td>
                     </tr>
                     <tr>
-                        <td>${param.error}</td>
+                        <td><label class="loginErrorMsg">${param.error}</label></td>
                         <td class="LICol2FB">
                             <td class="LICol2Left">Forgot Password?</td>
                             <td class="LICol2Right"><button type="submit">Login</button></td>
